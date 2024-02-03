@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(128, 0, 255);
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+.form{
+    text-align: start;
+    margin-top: 125px;
+    font-size: 25px;
+    margin-left: 40%;
+}
+.btn-po{
+    background-color: rgb(245, 118, 118);
+    color: white;
+    padding: 5px;
+}
+.alert{
+    color:#eb2f35;
+    /* color: rgb(4, 66, 4); */
+}
+
+label{
+    color: white;
+}

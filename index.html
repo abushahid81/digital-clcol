@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+    <h1 class="title"> Contact Form Using JavaScript</h1> <hr>
+    
+<form class="form" method="post" onsubmit="return validate()">
+    <label for="fname">First name:</label>
+    <input type="text" id="user" name="fname" placeholder="Enter your name"><br> <br>
+    <span id="uname" class="alert"></span>
+
+    <br/><br/>
+
+    <label for="password">Password:</label>
+    <input type="password" id="Password1" name="password"><br><br>
+    <span id="pass1" class="alert"></span>
+
+    <br/><br/>
+    
+    <label for="pwd">Confirm Password:</label>
+    <input type="password" id="Password2" name="pwd"> <br><br>
+    <span id="pass2" class="alert"></span>
+
+    <br/><br/>
+
+    <label for="pwd">Enter your mobile number</label>
+    <input type="number" id="mobilenumber" name="pwd"> <br><br>
+    <span id="mobileno" class="alert"></span>
+
+    <br/><br/>
+
+    <label for="email">Enter your email:</label>
+    <input type="email" class="form-control" id="email" name="email"><br><br>
+    <span id="emailid" class="alert"></span>
+
+    <br/><br/>
+
+    
+    <input type="submit" id="btn" class="btn-po"></input>
+
+
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
